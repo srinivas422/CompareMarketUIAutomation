@@ -1,0 +1,470 @@
+[
+  {
+    "line": 13,
+    "elements": [
+      {
+        "line": 18,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7283000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I navigate to comparethemarket website",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_navigate_to_comparethemarket_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I wait for \"3\" seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "com.compare.au.steps.CommonStepDef.i_wait_for_seconds(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on car insurance button",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_click_on_car_insurance_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2068000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on compare button",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_click_on_compare_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-04T15:53:24.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.compare.au.steps.CommonStepDef.deleteCookies()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "User Car Insurance Comparison journey",
+        "description": "",
+        "id": "web-::-user-car-insurance-comparison-journey;user-car-insurance-comparison-journey;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.compare.au.steps.CommonStepDef.testShutdown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2939000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Website allows to enter Rego number of the car as \"CU91EW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CU91EW\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.website_allows_to_enter_Rego_number_of_the_car_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1059000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select \"New South Wales\" after I click next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New South Wales\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_after_I_click_next_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6491000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select insurance type as \"Comprehensive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Comprehensive\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_insurance_type_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 918000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select the \"No\" for the question related to  factory options and non standard accessories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_for_the_question_related_to_factory_options_and_non_standard_accessories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 851000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select the \"No\" for the question car modifications",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_for_the_question_car_modifications(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select the \"No\" for the question car accidental repairs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_for_the_question_car_accidental_repairs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 841000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select the \"No\" for the question car finance",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_for_the_question_car_finance(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1655000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select the private as an option for usage type",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_private_as_an_option_for_usage_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select the \"Yes\" as an option for usage type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yes\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_as_an_option_for_usage_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter the \"6000\" per year to travel before clicking next button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6000\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_enter_the_per_year_to_travel_before_clicking_next_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the \"2150\" where the car usually park",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2150\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_enter_the_where_the_car_usually_park(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\nfrom invalid argument: \u0027element\u0027 is missing\n  (Session info: chrome\u003d84.0.4147.105)\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-M8LV8NU\u0027, ip: \u0027192.168.215.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir\u003dC:\\Users\\srini\\AppData\\Local\\Temp\\scoped_dir20348_719932608}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:55667}, acceptInsecureCerts\u003dfalse, browserVersion\u003d84.0.4147.105, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows, setWindowRect\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 84897b9be4a266086a49720c71f7e1aa\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:703)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:631)\r\n\tat com.compare.au.pages.CarInsurancePage.addressDetails(CarInsurancePage.java:257)\r\n\tat com.compare.au.steps.CarInsuranceStepdef.i_enter_the_Campbell_Street_Parramatta_NSW_for_the_car_usually_park(CarInsuranceStepdef.java:93)\r\n\tat ✽.I enter the \"23 Campbell Street, Parramatta, NSW, 2150\" for the car usually park(file:///C:/Automation/CompareMarketUIAutomation/src/test/resources/features/compareCarInsurance.feature:37)\r\n",
+              "duration": 970000000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "I enter the \"23 Campbell Street, Parramatta, NSW, 2150\" for the car usually park",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23 Campbell Street, Parramatta, NSW, 2150\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_enter_the_Campbell_Street_Parramatta_NSW_for_the_car_usually_park(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I select the car parking type as carpark",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_car_parking_type_as_carpark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I select the regular driver\u0027s gender as Male before entering the date of birth",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_regular_driver_s_gender_as_Male_before_entering_the_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I select the employment status before proceed further",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_employment_status_before_proceed_further()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I enter the age before clicking the next button",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_enter_the_age_before_clicking_the_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I select the options for claims in last 5 years, owning another car and young driver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 40
+                }
+              ],
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_options_for_claims_in_last_years_owning_another_car_and_young_driver(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I select the option as No Restrictions on the policy for drivers",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_option_as_No_Restrictions_on_the_policy_for_drivers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I enter the personal details before proceeding further",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_enter_the_personal_details_before_proceeding_further()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "i select the default date and accept button for all terms and conditions before clicking the getQuotes button",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_select_the_default_date_and_accept_button_for_all_terms_and_conditions_before_clicking_the_getQuotes_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I wait for \"10\" seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 12
+                }
+              ],
+              "location": "com.compare.au.steps.CommonStepDef.i_wait_for_seconds(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I capture the displayed quote results from different companies",
+            "match": {
+              "location": "com.compare.au.steps.CarInsuranceStepdef.i_capture_the_displayed_quote_results_from_different_companies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I close the browser",
+            "match": {
+              "location": "com.compare.au.steps.CommonStepDef.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CarInsuranceCompare"
+          },
+          {
+            "name": "@ComprehensiveCarInsuranceCompare"
+          }
+        ]
+      }
+    ],
+    "name": "Web :: User Car Insurance Comparison journey",
+    "description": "  In order to collate the information required to get quotes from companies that provide the car insurance\n  As a user\n  I want a website which will allow me to search with different options to compare and find the best price for my car insurance",
+    "id": "web-::-user-car-insurance-comparison-journey",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/compareCarInsurance.feature",
+    "tags": [
+      {
+        "name": "@CarInsuranceCompare",
+        "type": "Tag",
+        "location": {
+          "line": 12,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
